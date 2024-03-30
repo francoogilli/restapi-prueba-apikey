@@ -1,4 +1,4 @@
-import { API_KEY } from './config.js';
+import { API_KEY } from './src/config.js';
 
 export const authenticate = (req, res, next) => {
     const apiKey = req.headers['api-key'];
